@@ -63,7 +63,7 @@ public class WebConfiguration extends WebMvcConfigurerAdapter {
         basicDataSource.setDriverClassName("org.postgresql.Driver");
         basicDataSource.setUrl("jdbc:postgresql://localhost:5432/calculator");
         basicDataSource.setUsername("postgres");
-        basicDataSource.setPassword("123414");
+        basicDataSource.setPassword("12345678");
         return basicDataSource;
     }
 
